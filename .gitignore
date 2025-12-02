@@ -1,0 +1,31 @@
+# ROS2 / colcon build artifacts
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode / IDE stuff
+.vscode/
+.idea/
+*.swp
+
+# CMake / catkin junk
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+
+# Colcon test results
+test_results/
+
+# General
+.DS_Store
+*.bak
+*.tmp
