@@ -22,6 +22,7 @@ setup(
     entry_points={
         'console_scripts': [
             'obj_viz_all = zed_vision.obj_viz_all:main',
+            'object_coords = zed_vision.coords_publisher:main',
         ],
     },
 )
