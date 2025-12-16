@@ -8,6 +8,11 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+venv/
+venvs/
+.venv/
+
+
 
 # VSCode / IDE stuff
 .vscode/
@@ -29,3 +34,6 @@ test_results/
 .DS_Store
 *.bak
 *.tmp
+
+# ML models
+*.pt
