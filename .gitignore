@@ -29,3 +29,6 @@ test_results/
 .DS_Store
 *.bak
 *.tmp
+
+# Ignore nested ZED wrapper repo state (it's its own git repo)
+src/zed-ros2-wrapper/
